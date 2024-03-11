@@ -10,6 +10,7 @@ function App() {
       <Routes>
         <Route path='/' element={<Main />} />
         <Route path='/detail' element={<Detail />} />
+        <Route path='/register' element={'register'} />
       </Routes>
     </BrowserRouter>
   );
